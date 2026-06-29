@@ -212,14 +212,15 @@ img { max-width: 100%; display: block; }
 .btn:active { transform: scale(0.96); }
 .btn:disabled { opacity: 0.6; cursor: not-allowed; }
 .btn--primario {
-  background: linear-gradient(135deg, rgba(199, 169, 107, 0.85), rgba(225, 198, 141, 0.7));
+  background: linear-gradient(135deg, rgba(255,255,255,0.55), rgba(255,255,255,0.28));
   color: var(--verde-oscuro);
+  border-color: rgba(255,255,255,0.65);
 }
-.btn--primario:hover { opacity: 0.95; transform: translateY(-2px); box-shadow: 0 12px 28px rgba(199,169,107,0.35), var(--glass-highlight); }
-.btn--secundario { background: rgba(255,255,255,0.16); border-color: rgba(255,255,255,0.32); color: var(--blanco); }
-.btn--secundario:hover { background: rgba(255,255,255,0.26); transform: translateY(-2px); }
-.btn--soft { background: rgba(255,255,255,0.18); color: var(--blanco); border-color: rgba(255,255,255,0.28); }
-.btn--soft:hover { background: rgba(255,255,255,0.28); transform: translateY(-2px); }
+.btn--primario:hover { opacity: 0.95; transform: translateY(-2px); background: linear-gradient(135deg, rgba(255,255,255,0.68), rgba(255,255,255,0.38)); box-shadow: 0 12px 28px rgba(255,255,255,0.25), var(--glass-highlight); }
+.btn--secundario { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.26); color: var(--blanco); }
+.btn--secundario:hover { background: rgba(255,255,255,0.18); transform: translateY(-2px); }
+.btn--soft { background: rgba(255,255,255,0.08); color: var(--blanco); border-color: rgba(255,255,255,0.2); }
+.btn--soft:hover { background: rgba(255,255,255,0.16); transform: translateY(-2px); }
 
 /* =========================================
    SECCIONES
@@ -483,4 +484,3 @@ img { max-width: 100%; display: block; }
    NOTA / PLACEHOLDER
 ========================================= */
 .nota { font-size: 0.88rem; color: var(--texto-suave); padding: 20px; text-align: center; }
-
